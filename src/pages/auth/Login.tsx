@@ -96,7 +96,7 @@ const Login = () => {
               fontFamily: "cursive",
             }}
           >
-            Hệ thống thu thập thông tin các Ngân hàng tại Việt Nam
+            LOAD BLANCING
           </div>
           <div style={{ margin: "30px", width: "75%" }}>
             <Form onFinish={onFinish} form={form} layout="vertical">
