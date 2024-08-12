@@ -25,7 +25,7 @@ function App() {
             <div className="ContentApp">
 
             <div style={{ textAlign: 'center', margin: '10px', color: 'black', fontSize: '18px' }}>
-              Welcome to My Application 1
+              Welcome to My Application 2
             </div>
               <Routes>
                 <Route path="*" element={<NotFound />}></Route>
