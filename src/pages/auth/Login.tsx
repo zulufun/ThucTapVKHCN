@@ -7,7 +7,7 @@ import useAction from "../../redux/useActions";
 import { useNavigate } from "react-router-dom";
 import { RouterLinks } from "../../const/RouterLinks";
 import loginBack from "../../assets/login-v2.svg";
-import ThongKeCount from './../../../../../../../../../../FE-App/nckh-fe/src/pages/thong-ke-count/index';
+
 
 const Login = () => {
   const [messageApi, contextHolder] = message.useMessage();
