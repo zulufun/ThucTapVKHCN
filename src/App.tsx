@@ -23,6 +23,10 @@ function App() {
           {/* <AppContext.Provider value={{socket}}> */}
           <div className="MainApp">
             <div className="ContentApp">
+
+            <div style={{ textAlign: 'center', margin: '10px', color: 'black', fontSize: '18px' }}>
+              Welcome to My Application 1
+            </div>
               <Routes>
                 <Route path="*" element={<NotFound />}></Route>
                 <Route
